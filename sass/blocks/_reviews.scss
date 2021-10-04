@@ -1,0 +1,37 @@
+.reviews {
+    &__clients   {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    &__client {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 70px;
+        &:nth-child(1) {
+            margin-top: 70px;
+        }
+    }
+    &__name {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__achievement {
+        margin-bottom: 19px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__descr {
+        width: 656px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+    img {
+        margin-right: 62px;
+        width: 169px;
+        height: 169px;
+    }
+}

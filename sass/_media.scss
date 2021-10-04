@@ -1,0 +1,261 @@
+@media ( max-width: 1200px ) {
+    .container {
+        width: 100%;
+    }
+    .title {
+        &_left {
+            text-align: center;
+        }
+    }
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 50px auto;
+    }
+    .carousel {
+        .prev, .next {
+            left: 21px;
+        }
+    
+        .next {
+            left: auto;
+
+            right: 33px;
+
+        }
+    
+    }
+}
+
+@media ( max-width: 991px ) {
+    .carousel {
+        button {
+            img {
+                display: none;
+            }
+        }
+        .tns-item {
+            img {
+                width: 70%;
+                margin: 0px auto;
+                display: block;
+            }
+        }
+        .tns-nav {
+            transform: translateX(16%);
+            margin: 0 45%;
+            margin-bottom: 20px;
+            
+        }
+        &__inner {
+            width: 100%;
+        }
+    }
+    .reviews {
+        &__descr {
+               width: 100%;
+               font-size: 16px;
+               font-weight: 300;
+               color: #0d0d0d;
+           }
+    }
+    .footer {
+        &__info {
+            width: 100%;
+        }
+
+    }
+    
+   
+
+       
+
+}
+
+@media ( max-width: 725px ) {
+    .promo {
+        background: url(../../img/bg1.png) 40%/cover no-repeat;
+    }
+
+    .advantages {
+        span {
+            margin-top: 15px;
+        }
+        &__icons {
+            flex-direction: column;
+        }
+        &__icon {
+            margin-bottom: 30px;
+        }
+        &__descr {
+            font-size: 17px;
+            margin-top: 15px;
+            text-align: justify;
+
+        }
+        br {
+            display: none;
+        }
+    }
+    .reviews {
+        &__client {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            margin-bottom: 70px;
+            &:nth-child(1) {
+                margin-top: 70px;
+            }
+        }
+        br {
+            display: none;
+        }
+        &__name {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        &__achievement {
+            text-align: center;
+
+        }
+        &__descr {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center  ;
+        }
+        img {
+            margin: 0 auto;
+            width: 130px;
+            height: 130px
+        }
+
+    }
+
+    .carousel {
+        button {
+            img {
+                display: none;
+            }
+        }
+        .tns-item {
+            img {
+                width: 70%;
+                margin: 0px auto;
+                display: block;
+            }
+        }
+        .tns-nav {
+            transform: translateX(16%);
+            margin: 0 45%;
+            margin-bottom: 20px;
+            
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 100px;
+            font-size: 12px;
+        }
+        &-item {
+            margin: 0px auto;
+            margin-bottom: 15px;
+        }
+    }
+
+
+}
+
+@media ( max-width: 575px ) {
+    .promo {
+        &__header {
+            font-size: 37px;
+            text-align: center; 
+           
+        }
+        &__subheader {
+            text-align: center;
+        }
+        &__icon {
+            display: none;
+        }
+    }
+    .header {
+        &__phone {
+            font-size: 17px;
+        }
+        &:nth-child(1) {
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+        }
+        &__official {
+            margin: 20px auto;
+        }
+        &__contacts {
+            align-items: center;   
+        }
+        .button {
+            margin-top: 10px;
+            width: 180px;
+            height: 40px;
+        }
+    }
+    .button_main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .consultation {
+        background: url('../../img/bg2.png') 60%/cover no-repeat;
+        min-height: 0;
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 19px;
+            line-height: 30px;
+        }
+    }
+    
+    .feed-form {
+        margin-top: 15px;
+    }
+    
+    .carousel {
+        display: none;
+    }
+
+    .catalog {
+        &__tab {
+            width: 90px;
+            font-size: 10px;
+        }
+        &-item {
+            margin: 0px auto;
+            margin-bottom: 15px;
+            margin-right: auto;
+        }
+    }
+
+    .footer {
+        &__social-item {
+            border-radius: 0%;
+            img {
+                width: 45px;
+            }
+        }
+    }
+
+    .modal {
+        &__close {
+            right: 47%;
+            top: 90%;
+        }
+    }
+
+}
